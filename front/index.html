@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>Fileshare</title>
+   <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+ </head>
+ <body>
+   <div>
+      <form>
+      <h1>Upload an image:</h1>
+      Description:<br>
+       <input type="text" name="desc" id="desc">
+       Image url:<br>
+       <input type="file" name="iurl" id="iurl"><br>       
+       <input type="button" value="Send" id="uploadImage">
+    </form>
+    
+  </div>
+  <div id="listofImages"></div>
+      <div>
+        <p><b>Uploaded images:</b></p>
+        <table class='table' id='imagestable'>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </table>
+      </div>
+      <button id="updateimages">Update table</button><br>
+    <script type="text/javascript" src="apps.js"></script>
+ </body>
+</html>
