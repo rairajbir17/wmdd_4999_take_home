@@ -1,6 +1,6 @@
 'use strict';
 
-const URL_API = "https://2ctqiiywzl.execute-api.us-east-1.amazonaws.com/dev/image";
+const URL_API = "Your Api Url";
 
 (() => {
     const listofImages = document.getElementById('listofImages');
